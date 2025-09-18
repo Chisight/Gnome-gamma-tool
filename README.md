@@ -57,6 +57,7 @@ Usage: ./gamma-tool [-g R:G:B|G] [-t TEMP] [-r] [-i]
 | `-t` | `TEMPERATURE`   | Sets the target color temperature in Kelvin. `6500` is neutral (daylight).                               |
 | `-r` | _(none)_        | **Remove mode**: Finds the active profile created by this tool, removes it, and reverts to the system default. |
 | `-i` | _(none)_        | **Info mode**: Inspects the active profile and, if created by this tool, prints the settings parsed from its filename. |
+| `-d` | `device`        | **Single Display mode**: Applies changes only to given device number, zero based. |
 
 ### Examples
 
